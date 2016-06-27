@@ -7,7 +7,8 @@ wb.open("http://slither.io/")
 time.sleep(15)
 pag.typewrite("Ouroboros")
 pag.typewrite(["enter"])
-    
+
+print("To the left!")
 timeoutleft = time.time() + 5
 while time.time() < timeoutleft:
     pag.keyDown('left')
@@ -15,7 +16,6 @@ while time.time() < timeoutleft:
 
 pag.keyUp('left')
 print("Going straight!")
-
 timeoutright = time.time() + 5
 print time.time()
 print timeoutright
