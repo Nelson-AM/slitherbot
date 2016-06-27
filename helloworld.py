@@ -1,12 +1,12 @@
 import pyautogui as pag
 import cv2
 import time
+import webbrowser as wb
 
-time.sleep(2)
-pag.click(635, 550)
-time.sleep(1)
-pag.click(635, 550)
-time.sleep(2)
+wb.open("http://slither.io/")
+time.sleep(15)
+pag.typewrite("Ouroboros")
+pag.typewrite(["enter"])
     
 timeoutleft = time.time() + 5
 while time.time() < timeoutleft:
