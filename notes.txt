@@ -1,3 +1,4 @@
+=== NELSON'S NOTES ===
 Design of slither.io bot
 
 -> snake that moves over a free playing field
@@ -34,3 +35,12 @@ tl;dr inputs: playfield values
 	
 -> read information/feedback from webbroswer. What does the browser output? 
 -> test different types of neural networks, different learning algorithms, different number of layers
+
+=== INITIAL THOUGHTS === 
+Type of learning required? Reinforcement learning. 
+Possibly deep reinforcement learning? Would at least be interesting. 
+
+Reinforcement learning: stochastic finite state machine with inputs (actions sent from the agent) and outputs (observations and rewards sent to the agent)
+Relevant: Open AI reinforcement learning toolkit. https://gym.openai.com
+Possible problem: big knowledge space -> approximate  Q with neural network
+
