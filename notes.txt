@@ -1,0 +1,36 @@
+Design of slither.io bot
+
+-> snake that moves over a free playing field
+-> food in the shape of pellets similar to pacman
+-> other snakes to avoid
+
+
+Input: pixel values of surrounding area ? 
+		-> size of area, n pixel values
+		
+		Intermediate lalyers, number of layers? 
+		
+		Output: either buttons left, right, up  or mouse position around snake head
+		
+		Input size: ??
+		
+		Output size buttons = 3
+		Output size mouse: 360 + press or 180 or 90
+		
+Deaeth: how to recognise game being over? How to get the length score from the screen, etc? 
+
+
+Input: image processing
+Output mouse locations: where is the snakes head on the screen and how big is the visible portion of playing field
+
+Also: feedback if ?? changes, etc. 
+	-> ate food = reward
+	-> bump into snake = punish
+	
+tl;dr inputs: playfield values
+	output = movement
+	feedback = lenght at death
+	-> restart ?? 
+	
+-> read information/feedback from webbroswer. What does the browser output? 
+-> test different types of neural networks, different learning algorithms, different number of layers
